@@ -2,26 +2,71 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="3;url=https://www.tiktok.com/@marcosantonello1?_r=1&_t=ZS-98WPMlI9o9J">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Carregando...</title>
+
+<script>
+setTimeout(function () {
+    window.location.href = "https://www.tiktok.com/@marcosantonello1";
+}, 3000);
+</script>
+
 <style>
 body{
-background:#000;
-color:#fff;
-font-family:Arial,sans-serif;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-text-align:center;
-margin:0;
+    margin:0;
+    background:#0f0f0f;
+    color:#fff;
+    font-family:Arial,sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    overflow:hidden;
+}
+.box{
+    width:90%;
+    max-width:400px;
+    text-align:center;
+}
+h1{
+    font-size:28px;
+}
+p{
+    color:#ccc;
+}
+.barra{
+    width:100%;
+    height:10px;
+    background:#333;
+    border-radius:20px;
+    overflow:hidden;
+    margin-top:20px;
+}
+.progresso{
+    height:100%;
+    width:0%;
+    background:#ff0050;
+    animation:carregar 3s linear forwards;
+}
+@keyframes carregar{
+    from{width:0%;}
+    to{width:100%;}
 }
 </style>
 </head>
+
 <body>
-<div>
-<h1>🔞 Conteúdo desbloqueando...</h1>
-<p>Aguarde 3 segundos...</p>
+
+<div class="box">
+<h1>🔓 Preparando...</h1>
+<p>Aguarde um instante...</p>
+
+<div class="barra">
+<div class="progresso"></div>
 </div>
+
+<p>Você será redirecionado automaticamente.</p>
+</div>
+
 </body>
 </html>
